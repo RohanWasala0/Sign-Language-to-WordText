@@ -266,7 +266,7 @@ class Application:
             prediction1 = sorted(prediction1.items(), key = operator.itemgetter(1), reverse = True)
 
             if(prediction1[0][0] == 'S'):
-        	    self.current_symbol = prediction1[0][0]
+                self.current_symbol = prediction1[0][0]
             else:
                 self.current_symbol = prediction[0][0]
         
